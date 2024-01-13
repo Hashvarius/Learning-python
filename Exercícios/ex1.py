@@ -4,7 +4,7 @@
 def inicio():
     f1 = int(input(f"Digite o primeiro número da faixa desejada: "))
     f2 = int(input(f"Digite o último número da faixa desejada: "))
-    ip = input(f"Par ou Ímpar? ").lower()
+    ip = input(f"Par ou ímpar? ").lower()
     contagem = 0
 
     if ip == "ímpar":
