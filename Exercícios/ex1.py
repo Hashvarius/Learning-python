@@ -11,7 +11,7 @@ def inicio():
                 print(numero)
         contagem += 1
     print(f"existem {contagem} números ímpares nesta faixa de números.")
-
+    else:
     if ip == "par":
       for numero in range((f1), (f2)):
          if numero % 2 == 0:
